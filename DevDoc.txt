@@ -1,0 +1,9 @@
+1. Download the sdk based on the platform you wish to build your app on. Refer to http://docs.phonegap.com/en/edge/guide_platforms_index.md.html
+2. Install PhoneGap 2.4.0 from http://phonegap.com/install/
+3. Clone the repository:
+	cd <path directory>
+	git remote add origin git@github.com:reagan-lopez/speedbreaker.git
+	git clone git@github.com:reagan-lopez/speedbreaker.git
+4. Copy the assets folder in the repository to the respective folder path in your SDK.
+5. In order to test the app, build and run the application on the emulator supported by your sdk.
+ 

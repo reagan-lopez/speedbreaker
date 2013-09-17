@@ -1,0 +1,13 @@
+Installation Instructions:
+1. Download the speedbreaker.apk file from github to your computer.
+2. Connect the android device to the computer. Be sure to enable USB debugging on the device. To do that go to Settings>Developer Option.
+3. Copy the speedbreaker.apk file to any folder in your android device.
+4. Open the speedbreaker.apk file in your android device and follow the instructions to install the app.
+
+Usage Instructions:
+1. Find the installed app (cordovaExample) in your android device and open the app.
+2. Change the speed tolerance if required. Default is set to 5mph.
+3. Press the START button. Based on your motion, the app will display the nearest speedlimt and your current speed. Ensure that your GPS is on.
+4. If your speed exceeds the speedlimit by the speed tolerance, the app will produce a notification sound.
+5. The notification sound is the sound set on your android device. This can be changed.
+6. Press the STOP button to stop the app. 
