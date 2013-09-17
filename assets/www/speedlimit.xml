@@ -1,0 +1,74 @@
+<!-- http://www.wikispeedia.org/a/marks_bb2.php?name=all&nelat=46.662161&swlat=41.981442&nelng=-116.560822&swlng=-124.207306 -->
+<!--
+	Copyright © 2013 Reagan Lopez
+	[This program is licensed under the "MIT License"]
+	Please see the file LICENSE in the source
+	distribution of this software for license terms
+-->
+<xml>
+<markers>
+<marker label="John Carr" lat="45.542381" lng="-122.968274" mph="15" kph="0" cog="0" alt_meters="0.00"/>
+<marker label="Reagan Lopez" lat="45.510317" lng="-122.683761" mph="0" kph="0" cog="0" alt_meters="0.00"/>
+<marker label="Reagan Lopez" lat="45.51022100" lng="-122.68104400" mph="20" kph="0" cog="225" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51134600" lng="-122.68679100" mph="45" kph="0" cog="28" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51362000" lng="-122.68673500" mph="45" kph="0" cog="105" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50897800" lng="-122.68670000" mph="45" kph="0" cog="25" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50976700" lng="-122.68652300" mph="45" kph="0" cog="106" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50976700" lng="-122.68652300" mph="45" kph="0" cog="29" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50811100" lng="-122.68649000" mph="45" kph="0" cog="310" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50811100" lng="-122.68649000" mph="45" kph="0" cog="91" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50937400" lng="-122.68644900" mph="45" kph="0" cog="205" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51041500" lng="-122.68616200" mph="45" kph="0" cog="209" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51268100" lng="-122.68607500" mph="45" kph="0" cog="106" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50962200" lng="-122.68601000" mph="45" kph="0" cog="27" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51108500" lng="-122.68580500" mph="45" kph="0" cog="287" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50739000" lng="-122.68576600" mph="45" kph="0" cog="59" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51028300" lng="-122.68566000" mph="45" kph="0" cog="284" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50811400" lng="-122.68557900" mph="45" kph="0" cog="271" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50764900" lng="-122.68552000" mph="45" kph="0" cog="211" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50801500" lng="-122.68545600" mph="45" kph="0" cog="260" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50801500" lng="-122.68545600" mph="45" kph="0" cog="311" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50872900" lng="-122.68523200" mph="45" kph="0" cog="14" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50872900" lng="-122.68523200" mph="45" kph="0" cog="132" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50872900" lng="-122.68523200" mph="45" kph="0" cog="153" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50872900" lng="-122.68523200" mph="45" kph="0" cog="298" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51241000" lng="-122.68508300" mph="45" kph="0" cog="28" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51241000" lng="-122.68508300" mph="45" kph="0" cog="28" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51241000" lng="-122.68508300" mph="45" kph="0" cog="286" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50936600" lng="-122.68505900" mph="45" kph="0" cog="194" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51308100" lng="-122.68471900" mph="45" kph="0" cog="285" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50743700" lng="-122.68471100" mph="45" kph="0" cog="239" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51001000" lng="-122.68468000" mph="45" kph="0" cog="105" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51068300" lng="-122.68431400" mph="45" kph="0" cog="105" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50779900" lng="-122.68419800" mph="45" kph="0" cog="319" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50907800" lng="-122.68400800" mph="45" kph="0" cog="163" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51440300" lng="-122.68400000" mph="45" kph="0" cog="208" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51440300" lng="-122.68400000" mph="45" kph="0" cog="208" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51440300" lng="-122.68400000" mph="45" kph="0" cog="28" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51134900" lng="-122.68395400" mph="45" kph="0" cog="105" alt_meters="0.00"/>
+<marker label="Reagan Lopez" lat="45.51152200" lng="-122.68384500" mph="30" kph="0" cog="225" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50731100" lng="-122.68380800" mph="45" kph="0" cog="314" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51507700" lng="-122.68363400" mph="45" kph="0" cog="28" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51507700" lng="-122.68363400" mph="45" kph="0" cog="28" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51507700" lng="-122.68363400" mph="45" kph="0" cog="208" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51201700" lng="-122.68359200" mph="45" kph="0" cog="105" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50753800" lng="-122.68351600" mph="45" kph="0" cog="22" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50753800" lng="-122.68351600" mph="45" kph="0" cog="133" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50753800" lng="-122.68351600" mph="45" kph="0" cog="157" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50753800" lng="-122.68351600" mph="45" kph="0" cog="337" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51268900" lng="-122.68322900" mph="45" kph="0" cog="106" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50803200" lng="-122.68305400" mph="45" kph="0" cog="92" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50880900" lng="-122.68300200" mph="45" kph="0" cog="182" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50880900" lng="-122.68300200" mph="45" kph="0" cog="286" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50880900" lng="-122.68300200" mph="45" kph="0" cog="29" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50880900" lng="-122.68300200" mph="45" kph="0" cog="202" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50880900" lng="-122.68300200" mph="45" kph="0" cog="210" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51640200" lng="-122.68290900" mph="45" kph="0" cog="106" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50730500" lng="-122.68196700" mph="45" kph="0" cog="274" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50796200" lng="-122.68191100" mph="45" kph="0" cog="137" alt_meters="0.00"/>
+<marker label="Reagan Lopez" lat="45.50919300" lng="-122.68161200" mph="20" kph="0" cog="225" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50919600" lng="-122.68160900" mph="45" kph="0" cog="285" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.50986500" lng="-122.68122900" mph="45" kph="0" cog="285" alt_meters="0.00"/>
+<marker label="John Carr" lat="45.51121400" lng="-122.68051900" mph="45" kph="0" cog="284" alt_meters="0.00"/>
+</markers>
+</xml>

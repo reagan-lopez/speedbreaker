@@ -1,0 +1,126 @@
+<!-- 
+	Copyright © 2013 Reagan Lopez
+	[This program is licensed under the "MIT License"]
+	Please see the file LICENSE in the source
+	distribution of this software for license terms	
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>speedbreaker</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+		<link rel="stylesheet" href="css/speedbreaker.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>		
+        <script src="js/speedbreaker.js"></script>	
+		<script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>
+		<script>
+			$(document).ready(function()
+			{
+			  $("#stop-button-div").hide();
+			  $("#speed-limit").html("-- mph");
+			  $("#speed-limit").css("color", "black");			  
+			  $("#my-speed").html("-- mph");
+			  $("#my-speed").css("color", "black");
+			  var timerId1=0;
+			  var timerId2=0;	
+			  $("#start-button").click(function(){
+				$("#start-button-div").hide();
+				$("#stop-button-div").show();
+				$("#geo-div").show();
+				tolerance = $("#speed-tolerance").val();
+				$('#speed-tolerance').slider( 'disable' );
+				
+				// set the options and call the function to get current speed.
+				var options = { frequency: 2000, timeout: 30000, enableHighAccuracy: true };
+				watchID = navigator.geolocation.watchPosition(onSuccess, onError, options);	
+				
+				// call the function to get the speedlimit
+				timerId1=setInterval(function(){
+					loadXMLDoc();
+				},2000);
+			  });
+			  
+			  $("#stop-button").click(function()
+			  {
+				$("#stop-button-div").hide();
+				$("#geo-div").hide();
+				$("#start-button-div").show();
+				clearWatch();
+				clearInterval(timerId1);
+				clearInterval(timerId2);
+			    $("#speed-limit").html("-- mph");
+			    $("#speed-limit").css("color", "black");				
+				$("#my-speed").html("-- mph");
+				$("#route-info").html("");
+				$("#my-speed").css("color", "black");
+				$('#speed-tolerance').slider( 'enable' );
+			  });			  
+			});				
+		</script>
+    </head>
+	
+    <body> 
+        <div data-role="page" id="page1">
+		
+            <div data-theme="b" data-role="header">
+                <h3 id="page-header" class="page-header">
+				SpeedBreaker
+                </h3>
+            </div> <!-- end of header -->
+
+			<div data-role="content">
+				
+				<div data-role="fieldcontain">
+					<h3>Speed Information</h3>
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><div class="ui-bar ui-bar-a ui-center" style="height:20px">
+						<img style="width: 50px; height: 50px" src="img/speed-limit.png" />
+						</div></div>
+						<div class="ui-block-b"><div class="ui-bar ui-bar-a ui-center" style="height:20px">
+						<img style="width: 50px; height: 50px" src="img/my-speed.png" />
+						</div></div>
+						<div class="ui-block-a"><div id="speed-limit" class="ui-bar ui-bar-c ui-center" style="height:20px"></div></div>
+						<div class="ui-block-b"><div id="my-speed" class="ui-bar ui-bar-c ui-center" style="height:20px"></div></div>					
+					</div>
+				</div>
+
+				<div data-role="fieldcontain">
+					<h3>Select Speed Tolerance</h3>
+					<input id="speed-tolerance" type="range" name="slider" min="0" max="20" value="5" data-highlight="true">
+				</div>		
+
+				<div id="start-button-div" class="ui-center">
+					<input id="start-button" type="button" data-theme="g" value="Start" class="start-button" data-inline="true"/>
+				</div>
+					
+				<div id="stop-button-div" class="ui-center">
+					<input id="stop-button" type="button" data-theme="r" value="Stop" class="stop-button" data-inline="true" />
+				</div>
+				
+				<br>
+				<br>
+				<br>
+				<div id="geo-div" class="ui-color-gray"> <!-- used for debugging -->
+				</div>				
+				
+				<div id="disclaimer" class="ui-color-gray">
+					<b>
+						Disclaimer! This app is not responsible for any kind of speeding
+						tickets or road accidents. Speedlimit does not reflect road work
+						and school zones. Drive Safe!
+					</b>
+				</div>
+	
+			</div> <!-- end of content -->
+						
+		</div> <!-- end of page -->
+    </body>
+	
+</html>
