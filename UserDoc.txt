@@ -8,6 +8,6 @@ Usage Instructions:
 1. Find the installed app (cordovaExample) in your android device and open the app.
 2. Change the speed tolerance if required. Default is set to 5mph.
 3. Press the START button. Based on your motion, the app will display the nearest speedlimt and your current speed. Ensure that your GPS is on.
-4. If your speed exceeds the speedlimit by the speed tolerance, the app will produce a notification sound.
+4. If your speed exceeds the speedlimit by the speed tolerance, the app will produce a notification sound. Ensure that your phone is not in silent mode.
 5. The notification sound is the sound set on your android device. This can be changed.
 6. Press the STOP button to stop the app. 
